@@ -33,7 +33,7 @@ jobs:
         shell: cmd
         run: |
           cd Source
-          msbuild D3D11 Overlay ImGui.sln ^
+          msbuild "D3D11 Overlay ImGui.sln" ^
             /p:Configuration=Release ^
             /p:Platform=x64 ^
             /m
