@@ -32,7 +32,8 @@ jobs:
       - name: Build Solution
         shell: cmd
         run: |
-          msbuild Source\D3D11 Overlay ImGui.sln ^
+          cd Source
+          msbuild D3D11 Overlay ImGui.sln ^
             /p:Configuration=Release ^
             /p:Platform=x64 ^
             /m
