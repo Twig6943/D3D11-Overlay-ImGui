@@ -43,4 +43,5 @@ jobs:
         with:
           name: DLL
           path: |
-            Win64/Release/*.dll
+            Source/Win64/Release/*.dll
+            Source/x64/Release/*.dll
